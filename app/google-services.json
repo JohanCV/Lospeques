@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "741588519707",
+    "firebase_url": "https://lospekes-63b6f.firebaseio.com",
+    "project_id": "lospekes-63b6f",
+    "storage_bucket": "lospekes-63b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741588519707:android:e8a70d42e35ed60f",
+        "android_client_info": {
+          "package_name": "lospeques.jcv.com.lospeques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741588519707-crrj8r9nm2mlmg10fudns19ecbkucnsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqFN4b7h8Wu04ZxrkHox3LHDxUCFn0aGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741588519707-crrj8r9nm2mlmg10fudns19ecbkucnsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

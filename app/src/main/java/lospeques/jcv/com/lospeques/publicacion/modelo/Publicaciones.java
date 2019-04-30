@@ -27,9 +27,9 @@ public class Publicaciones extends AppCompatActivity {
     private GridLayoutManager glm;
     private PublicacionAdapter adapter;
 
-    Date fecha = new Date();
-    Time now = new Time();
-    Date currentTime = Calendar.getInstance().getTime();
+    //Date fecha = new Date();
+    //Time now = new Time();
+    //Date currentTime = Calendar.getInstance().getTime();
 
     ArrayList<Publicacion> data = new ArrayList<>();
     String publicacion;
@@ -49,7 +49,7 @@ public class Publicaciones extends AppCompatActivity {
         txtPublicacionResultado = findViewById(R.id.textViewResult);
         rvPublicaciones = findViewById(R.id.recyclerViewPublicacion);
 
-        glm = new GridLayoutManager(this, 1);
+        glm = new GridLayoutManager(this, 2);
         rvPublicaciones.setLayoutManager(glm);
         adapter = new PublicacionAdapter(dataSet(data));
         rvPublicaciones.setAdapter(adapter);
@@ -81,11 +81,11 @@ public class Publicaciones extends AppCompatActivity {
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         setPublicacion(String.valueOf(editText.getText()));
-                        String fecha = String.valueOf(currentTime);
-                        String hora = String.valueOf(now);
-                        data.get(0).setFecha(fecha);
-                        data.get(0).setHora(hora);
-                        data.add(new Publicacion(R.drawable.user,"Johan",data.get(0).getFecha(),data.get(0).getHora(),getPublicacion()));
+                        //String fecha = String.valueOf(currentTime);
+                        //String hora = String.valueOf(now);
+                        //data.get(0).setFecha(fecha);
+                        //data.get(0).setHora(hora);
+                        data.add(new Publicacion(R.drawable.user,"Johan","29/04/19","20:59",getPublicacion()));
 
                         adapter.notifyDataSetChanged();
                     }
